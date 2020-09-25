@@ -5,4 +5,4 @@
 
 ## Team Members
 - Sravani Jaidi [https://github.com/Sravani537520](https://github.com/Sravani537520)
-- Jack Beaver
+- Jack Beaver [https://github.com/JackWBeaver](https://github.com/JackWBeaver)
