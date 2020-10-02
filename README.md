@@ -58,6 +58,10 @@ java -cp target/kafka-mq-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nor
 ```PowerShell
 java -cp target/kafka-mq-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.northwestmissouri.bigdatabulls.simple.ProducerMessages test
 ```
+### To run ProducerMessages
+```PowerShell
+java -cp target/kafka-mq-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.northwestmissouri.bigdatabulls.simple.ProducerDisplayMessages test
+```
 ## Test Communications
 
 1. Type some messages for the Producer.
