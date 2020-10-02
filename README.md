@@ -49,10 +49,12 @@ java -cp target/kafka-mq-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.nor
 
 Open a new PowerShell as Administrator in the root project folder, start the Producer app using topic test:
 
+### To run ProducerTotalCount
 ```PowerShell
 java -cp target/kafka-mq-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.northwestmissouri.bigdatabulls.simple.ProducerTotalCount test
 ```
 
+### To run ProducerMessages
 ```PowerShell
 java -cp target/kafka-mq-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.northwestmissouri.bigdatabulls.simple.ProducerMessages test
 ```
