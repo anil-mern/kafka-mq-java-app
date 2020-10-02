@@ -34,7 +34,7 @@ public class ProducerTotalCount {
         String line = in.nextLine();
         while(!line.equals("exit")) {
             //TODO: Make sure to use the ProducerRecord constructor that does not take parition Id
-            totalNum = countNum(totalNum, line)
+            totalNum = countNum(totalNum, line);
             ProducerRecord<String, String> rec = new ProducerRecord<String, String>(topicName,totalNum+"");
             producer.send(rec);
             line = in.nextLine();
@@ -43,8 +43,8 @@ public class ProducerTotalCount {
         producer.close();
     }
    
-    private static String countNum(totalNum, addNum) {
-        int num = Interger.parseInt(addNum);
+    private static int countNum(int totalNum, String addNum) {
+        int num = Integer.parseInt(addNum);
         return totalNum + num;
     }
 }
