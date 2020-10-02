@@ -63,7 +63,7 @@
           <configuration>
             <archive>
               <manifest>
-                <mainClass>com.spnotes.kafka.simple.ProducerTotalCount</mainClass>
+                <mainClass>com.spnotes.kafka.simple.ProducerMessages</mainClass>
               </manifest>
             </archive>
             <descriptorRefs>
