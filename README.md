@@ -53,6 +53,9 @@ Open a new PowerShell as Administrator in the root project folder, start the Pro
 java -cp target/kafka-mq-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.northwestmissouri.bigdatabulls.simple.ProducerTotalCount test
 ```
 
+```PowerShell
+java -cp target/kafka-mq-java-app-1.0-SNAPSHOT-jar-with-dependencies.jar edu.northwestmissouri.bigdatabulls.simple.ProducerMessages test
+```
 ## Test Communications
 
 1. Type some messages for the Producer.
