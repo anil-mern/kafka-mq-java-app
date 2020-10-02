@@ -1,0 +1,6 @@
+edu\northwestmissouri\bigdatabulls\simple\ProducerMessages.class
+edu\northwestmissouri\bigdatabulls\simple\Consumer.class
+edu\northwestmissouri\bigdatabulls\simple\ProducerDisplayMessages.class
+edu\northwestmissouri\bigdatabulls\simple\ProducerTotalCount.class
+edu\northwestmissouri\bigdatabulls\App.class
+edu\northwestmissouri\bigdatabulls\simple\Consumer$ConsumerThread.class
